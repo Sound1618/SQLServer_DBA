@@ -1,0 +1,1 @@
+SELECT suser_sname( owner_sid ) OwnerID , * FROM sys.databases where suser_sname( owner_sid ) <> 'sa'
