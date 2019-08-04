@@ -1,10 +1,11 @@
 -- Use the following script to kill all associated spid's linked to a DB
 -- If the bit variable of @AlterDatabase is set to 1 then the database will be set to multi-user mode as well
+-- Replace XXX by Database Name
 
 USE [master];
 
 DECLARE 
-	@Database		varchar(30) = 'PRD_VirginMoney_Workware',
+	@Database		varchar(30) = 'XXX',
 	@AlterDatabase	bit = 1
 
 DECLARE
